@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box</title>
+  </head>
+  <body>
+    <div>
+      <div class="box">
+        <h1>hello</h1>
+      </div>
+      <div class="box">
+        <h1>hello</h1>
+      </div>
+      <div class="box">
+        <h1>hello</h1>
+      </div>
+      <div class="box">
+        <h1>hello</h1>
+      </div>
+      <div class="box">
+        <h1>hello</h1>
+      </div>
+      <div class="box">
+        <h1>hello</h1>
+      </div>
+      <div class="box">
+        <h1>hello</h1>
+      </div>
+      <div class="box">
+        <h1>hello</h1>
+      </div>
+      <div class="box">
+        <h1>hello</h1>
+      </div>
+    </div>
+    <h1>my name is pradeep kumar gond</h1>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      div {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+
+      .box {
+        height: 100%;
+        background-color: black;
+        border: 2px solid white;
+      }
+
+      .box:hover {
+        background-image: linear-gradient(red, white, green);
+        background-repeat: repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: blue;
+      }
+      h1 {
+        font-size: 50px;
+        font-family: 700px;
+      }
+    </style>
+    <script>
+      let pradeep = document.querySelectorAll("h1");
+      console.log(pradeep);
+      console.dir(pradeep);
+    </script>
+  </body>
+</html>
